@@ -18,5 +18,10 @@ open('privacy.html','w').write(page('Privacy Policy — The Arnold Institute of 
 open('index.html','w').write(page('The Arnold Institute of Broscience','''<h1>The Arnold Institute of Broscience</h1>
 <p class="lead">A personal, non-commercial n-of-1 health research project. One subject, one variable at a time, and written results.</p>
 <p>The Institute does not offer services to the public and does not provide medical advice.</p>
+<h2 id="research">Research</h2>
+<a class="card" href="research/the-way-back-to-the-table.html"><span class="card-kicker">Research Note</span>
+<span class="card-title">The Way Back to the Table</span>
+<span class="card-text">A 0–10 scale of how hard each food works your stomach, for easing back after a stomach bug, plus guidance on movement and the gut.</span></a>
+<h2>About</h2>
 <ul><li><a href="privacy.html">Privacy Policy</a></li>
 <li>Contact: <a href="mailto:arnoldinstitute@mail.grokbot.com">arnoldinstitute@mail.grokbot.com</a></li></ul>'''))
